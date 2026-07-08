@@ -44,8 +44,8 @@ The supervisor creates a TODO-based research plan, submits it for human approval
 Prerequisites: Python 3.12+, Node.js, [Ollama](https://ollama.com/)
 
 ```bash
-git clone --recursive https://github.com/tuggspeedman-ai/langchain-deep-agent.git
-cd langchain-deep-agent
+git clone --recursive https://github.com/jonathanavni/deep-research-agent.git
+cd deep-research-agent
 
 cp .env.example .env
 # Add your TAVILY_API_KEY to .env
@@ -58,8 +58,8 @@ make run            # backend on :2024, UI on :3000
 ### Cloud provider
 
 ```bash
-git clone --recursive https://github.com/tuggspeedman-ai/langchain-deep-agent.git
-cd langchain-deep-agent
+git clone --recursive https://github.com/jonathanavni/deep-research-agent.git
+cd deep-research-agent
 
 cp .env.example .env
 # Set MODEL=openai:gpt-5.4-mini (or anthropic:claude-sonnet-4-6, google_genai:gemini-2.5-flash)
